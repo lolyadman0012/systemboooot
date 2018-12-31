@@ -25,7 +25,6 @@ client.on('message', function(msg) {
       .addField('👑**__ owner__**',`**${msg.guild.owner}**`,true)
       .addField('🆔**__ serverID__**__**',`**${msg.guild.id}**`,true)
       .addField('📅**__ server create in__**',msg.guild.createdAt.toLocaleString())
-	  .addField('📅**(createby:GoMGoM)**',())
       msg.channel.send({embed:embed});
     }
   });

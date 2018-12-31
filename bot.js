@@ -245,7 +245,7 @@ client.on('message', message => {
         .setTitle('Click Here')
         .setURL(`${omar.avatarURL}`)
         .setImage(`${omar.avatarURL}`)
-        .setFooter('(createby:GoMGoM) ',client.user.avatarURL) 
+        .setFooter(' ',client.user.avatarURL) 
       message.channel.sendEmbed(embed);
     }
 });
@@ -273,7 +273,7 @@ client.on("message", msg => {
           .addField('🎲| playing :', `${msg.author.presence.game === null ? "No Game" : msg.author.presence.game.name}`, true)
    .addField(':military_medal:  rank', `**[ ${msg.member.roles.filter(r => r.name).size} ]**`, true)
           .addField('📅| Join the Discord in :', `${msg.createdAt}`,true);
-		  .addField('(createby:GoMGoM) :', ``,true);
+		  .addField('', ``,true);
       msg.channel.send({embed: embed})
   }
 });
@@ -942,19 +942,19 @@ client.on("message", message => {
          ------------------------------
 		 الاوامر العاديه
          @avatar:
-		 @report:
+	 @report:
          @id :
          @server :
-		 @verify:
-		 @link:
+	 @verify:
+	 @link:
          ------------------------------
 		 اوامر الادمن
          @ban :
          @clear :
-		 @mute:
-		 @unmute:
-		 @bc:
-		 @createroles:
+	 @mute:
+	 @unmute:
+	 @bc:
+	 @createroles:
          ------------------------------
          To activate log advantage
 		 (createby:GoMGoM)

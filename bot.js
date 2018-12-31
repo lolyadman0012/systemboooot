@@ -29,7 +29,6 @@ client.on('message', function(msg) {
     }
   });
   
-  (createby:GoMGoM)
   client.on("message", message => {
 
             if (message.content.startsWith(prefix + "bc")) {  ///الامر
